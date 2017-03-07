@@ -1,6 +1,29 @@
 # Borilliant Feedback
 This is a repo built for better feedback of courses at rpi.
 
-Running Instructions:
+## Install 
+```
+$ npm install 
+```
 
-1. $ npm install 
+## Running Instructions:
+
+Open mongo DB:
+
+Step 1:
+Setting the dbpath of mongodb to the path I want
+```
+sudo mongod --dbpath data/db/
+```
+
+Step 2:
+```
+mongo
+```
+
+Start mongodb
+
+Step 3:
+```
+nodemon
+```
