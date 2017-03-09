@@ -13,4 +13,18 @@ var demoSchema = new Schema({
     }
 });
 
+var CouseSchema = new Schema({
+    Major : String,
+    Name : String,
+    Instuctor: String,
+    Difficulty: Number,
+    Boringness: Number,
+    Time_Commitment: Number,
+    Review: String,
+    createTime: {
+        type: Date,
+        default: Date.now
+    }
+});
+
 exports.Demo = mongoose.model('demo', demoSchema, 'demo');
