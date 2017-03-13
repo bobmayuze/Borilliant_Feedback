@@ -13,7 +13,7 @@ var demoSchema = new Schema({
     }
 });
 
-var CourseSchema = new Schema({
+var FeedbackSchema = new Schema({
     Major : String,
     Name : String,
     Instuctor: String,
@@ -28,4 +28,4 @@ var CourseSchema = new Schema({
 });
 
 exports.Demo = mongoose.model('demo', demoSchema, 'demo');
-exports.Course = mongoose.model('Course', CourseSchema)
+exports.Feedback = mongoose.model('Feedback', FeedbackSchema)

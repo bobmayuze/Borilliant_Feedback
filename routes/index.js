@@ -123,34 +123,12 @@ router.get('/update.html', function(req, res, next) {
 
 // New Route 
 router.post('/add_course', (req, res) => {
-    let {email, passwd, profile} = req.body;
-    profile = JSON.parse(profile);
-
-    Student.findOne({email: email}, (err, doc) => {
-        if (err) HandleErrorIfAny (err, req, res);
-        if (doc != null) {
-            console.error("user name already exist");
-            res.send("user name already exist");
-        } else {
-            let newStudent = new Student();
-            newStudent.email = email;
-            newStudent.passwd = passwd;
-            newStudent.init_profile = profile;
-            newStudent.save((err) => {
-                if (err) HandleErrorIfAny(err, req, res);
-                else {
-                    mail('verification@youthimpactchina.com', email, 'Registration Confirm',
-                    'account_verification', {
-                        email: email,
-                        link: 'http://api.youthimpactchina.com/account/confirm/' + newStudent._id
-                    }, () => res.send("register success & email sent"));
-                    mail('contact@internationalcontests.cn', "apply@youthimpactchina.com", "notification", "notification", {data: JSON.stringify({
-                        email: email, profile: profile
-                    })}, () => {console.log("notification sent");});
-                }
-            });
-        }
-    });
+    let {Major, Name, Instuctor, Difficulty, 
+         Boringness, Time_Commitment, Review} = req.body;
+    let newFeedback = new Course();
+        newFeedback.Major = Major;
+        newFeedback.Name = Name;
+        newFeedback.Instuctor = Instuctor;
 });
 
 
