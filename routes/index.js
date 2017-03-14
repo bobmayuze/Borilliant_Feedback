@@ -129,6 +129,7 @@ router.post('/add_course', (req, res) => {
         newFeedback.Major = Major;
         newFeedback.Name = Name;
         newFeedback.Instuctor = Instuctor;
+        newFeedback.Difficulty = Difficulty;
 });
 
 
