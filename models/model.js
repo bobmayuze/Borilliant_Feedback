@@ -14,13 +14,13 @@ var demoSchema = new Schema({
 });
 
 var FeedbackSchema = new Schema({
-    Major : String,
-    Name : String,
-    Instuctor: String,
-    Difficulty: Number,
-    Boringness: Number,
-    Time_Commitment: Number,
-    Review: String,
+    _Major : String,
+    // Name : String,
+    // Instuctor: String,
+    // Difficulty: Number,
+    // Boringness: Number,
+    // Time_Commitment: Number,
+    // Review: String,
     createTime: {
         type: Date,
         default: Date.now

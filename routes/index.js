@@ -5,6 +5,7 @@ var mongoose = require('mongoose');
 const fetch = require('node-fetch');
 var model = require('../models/model');
 var Demo = model.Demo;
+var Feedback = model.Feedback;
 
 mongoose.connect('mongodb://localhost/express_demo');
 
@@ -122,14 +123,42 @@ router.get('/update.html', function(req, res, next) {
 });
 
 // New Route 
+
+router.get('/add_course', function(req, res, next) {
+    console.log("TEST PAGE GET LOADED");
+    res.send("WELCOME");
+});
+
 router.post('/add_course', (req, res) => {
-    let {Major, Name, Instuctor, Difficulty, 
-         Boringness, Time_Commitment, Review} = req.body;
-    let newFeedback = new Course();
-        newFeedback.Major = Major;
-        newFeedback.Name = Name;
-        newFeedback.Instuctor = Instuctor;
-        newFeedback.Difficulty = Difficulty;
+    console.log('======ADDING NEW COUSE========');
+    // let {Major, Name, Instuctor, Difficulty, 
+    //      Boringness, Time_Commitment, Review} = req.body;
+    let {Major} = req.body;
+    // console.log(Major);
+    // console.log('======successfully get the data from the req========');
+    let newFeedback = new Feedback();
+    newFeedback._Major = Major;
+    // var newFeedback = new Feedback({
+    //     // _Major: Major
+    //     _Major: req.body.Major
+    // });
+    console.log('======successfully created the original object========');
+    // newFeedback.Major = Major;
+
+    // console.log('======successfully created the object========');
+    // newFeedback.Name = Name;
+    // newFeedback.Instuctor = Instuctor;
+    // newFeedback.Difficulty = Difficulty;
+
+    newFeedback.save((err) => {
+        if(err) console.log(err);
+        else{
+            console.log("successfully registered");
+            res.send ("success ... ");
+        }
+    });
+    
+
 });
 
 
