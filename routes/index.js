@@ -132,7 +132,7 @@ router.get('/add_course', function(req, res, next) {
 router.post('/add_course', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty, 
-    //      Boringness, Time_Commitment, Review} = req.body;
+        //  Boringness, Time_Commitment, Review} = req.body;
     let {Major} = req.body;
     // console.log(Major);
     // console.log('======successfully get the data from the req========');

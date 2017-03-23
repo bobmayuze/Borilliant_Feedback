@@ -14,8 +14,16 @@ var demoSchema = new Schema({
 });
 
 var FeedbackSchema = new Schema({
-    _Major : String,
-    // Name : String,
+    _Major :{
+        type : String,
+        default : "XXXX"
+    },
+    _Name :{
+        type : String,
+        default : "0000"
+    },
+    // _Major : String,
+    // _Name : String,
     // Instuctor: String,
     // Difficulty: Number,
     // Boringness: Number,
