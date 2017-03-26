@@ -126,14 +126,14 @@ router.get('/update.html', function(req, res, next) {
 
 router.get('/add_course', function(req, res, next) {
     console.log("TEST PAGE GET LOADED");
-    res.send("WELCOME");
+    res.send("WELCOME TO TEST PAGE");
 });
 
 router.post('/add_course', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty, 
         //  Boringness, Time_Commitment, Review} = req.body;
-    let {Major} = req.body;
+    let {Major, Name} = req.body;
     // console.log(Major);
     // console.log('======successfully get the data from the req========');
     let newFeedback = new Feedback();
