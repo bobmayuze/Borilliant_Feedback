@@ -160,5 +160,4 @@ router.post('/add_course', (req, res) => {
 
 });
 
-
 module.exports = router;
