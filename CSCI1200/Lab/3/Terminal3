@@ -1,0 +1,260 @@
+Yu:3 apple$ ./print.out //n too small
+n address: 0x7fff57a66868
+a address: 0x7fff57a66ba0
+b address: 0x7fff57a66b50
+-----------------------------------------
+            location: 0x7fff57a66c18  VALUE:   0
+            location: 0x7fff57a66c10  garbage? 
+            location: 0x7fff57a66c08  garbage? 
+            location: 0x7fff57a66c00  POINTER: 0x7fff57a66c18
+            location: 0x7fff57a66bf8  garbage? 
+      a[10] location: 0x7fff57a66bf0  POINTER: 0x7fff57a66c18
+            location: 0x7fff57a66be8  VALUE:   9
+            location: 0x7fff57a66be0  VALUE:   8
+            location: 0x7fff57a66bd8  VALUE:   7
+            location: 0x7fff57a66bd0  VALUE:   6
+            location: 0x7fff57a66bc8  VALUE:   5
+            location: 0x7fff57a66bc0  VALUE:   4
+            location: 0x7fff57a66bb8  VALUE:   3
+            location: 0x7fff57a66bb0  VALUE:   2
+            location: 0x7fff57a66ba8  VALUE:   1
+a[0], b[10] location: 0x7fff57a66ba0  VALUE:   0
+            location: 0x7fff57a66b98  POINTER: 0x7fff57a66c10
+            location: 0x7fff57a66b90  POINTER: 0x7fff57a66c10
+            location: 0x7fff57a66b88  garbage? 
+            location: 0x7fff57a66b80  POINTER: 0x7fff57a66bf0
+            location: 0x7fff57a66b78  garbage? 
+            location: 0x7fff57a66b70  garbage? 
+            location: 0x7fff57a66b68  VALUE:   1
+            location: 0x7fff57a66b60  VALUE:   16
+            location: 0x7fff57a66b58  POINTER: 0x7fff57a66ce0
+       b[0] location: 0x7fff57a66b50  garbage? 
+            location: 0x7fff57a66b48  VALUE:   0
+            location: 0x7fff57a66b40  VALUE:   0
+            location: 0x7fff57a66b38  VALUE:   0
+            location: 0x7fff57a66b30  VALUE:   0
+            location: 0x7fff57a66b28  VALUE:   0
+            location: 0x7fff57a66b20  VALUE:   0
+            location: 0x7fff57a66b18  VALUE:   0
+            location: 0x7fff57a66b10  VALUE:   0
+            location: 0x7fff57a66b08  VALUE:   0
+            location: 0x7fff57a66b00  VALUE:   0
+            location: 0x7fff57a66af8  VALUE:   0
+            location: 0x7fff57a66af0  VALUE:   0
+            location: 0x7fff57a66ae8  VALUE:   0
+            location: 0x7fff57a66ae0  VALUE:   0
+            location: 0x7fff57a66ad8  VALUE:   0
+            location: 0x7fff57a66ad0  VALUE:   0
+            location: 0x7fff57a66ac8  VALUE:   0
+            location: 0x7fff57a66ac0  VALUE:   0
+            location: 0x7fff57a66ab8  VALUE:   0
+            location: 0x7fff57a66ab0  VALUE:   0
+            location: 0x7fff57a66aa8  VALUE:   0
+            location: 0x7fff57a66aa0  VALUE:   0
+            location: 0x7fff57a66a98  VALUE:   0
+            location: 0x7fff57a66a90  VALUE:   0
+            location: 0x7fff57a66a88  VALUE:   0
+            location: 0x7fff57a66a80  VALUE:   0
+            location: 0x7fff57a66a78  VALUE:   0
+            location: 0x7fff57a66a70  VALUE:   0
+            location: 0x7fff57a66a68  VALUE:   0
+            location: 0x7fff57a66a60  VALUE:   0
+            location: 0x7fff57a66a58  VALUE:   0
+            location: 0x7fff57a66a50  VALUE:   0
+            location: 0x7fff57a66a48  VALUE:   0
+            location: 0x7fff57a66a40  VALUE:   0
+            location: 0x7fff57a66a38  VALUE:   0
+            location: 0x7fff57a66a30  VALUE:   0
+            location: 0x7fff57a66a28  VALUE:   0
+            location: 0x7fff57a66a20  VALUE:   0
+            location: 0x7fff57a66a18  VALUE:   0
+            location: 0x7fff57a66a10  VALUE:   0
+            location: 0x7fff57a66a08  VALUE:   0
+            location: 0x7fff57a66a00  VALUE:   0
+            location: 0x7fff57a669f8  VALUE:   0
+            location: 0x7fff57a669f0  VALUE:   0
+            location: 0x7fff57a669e8  VALUE:   0
+            location: 0x7fff57a669e0  VALUE:   0
+            location: 0x7fff57a669d8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669d0  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669c8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669c0  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669b8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669b0  garbage? 
+            location: 0x7fff57a669a8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669a0  garbage? 
+            location: 0x7fff57a66998  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66990  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66988  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66980  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66978  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66970  garbage? 
+            location: 0x7fff57a66968  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66960  garbage? 
+            location: 0x7fff57a66958  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66950  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66948  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66940  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66938  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66930  garbage? 
+            location: 0x7fff57a66928  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66920  garbage? 
+            location: 0x7fff57a66918  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66910  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66908  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66900  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668f8  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668f0  garbage? 
+            location: 0x7fff57a668e8  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668e0  garbage? 
+            location: 0x7fff57a668d8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668d0  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668c8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668c0  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668b8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668b0  garbage? 
+            location: 0x7fff57a668a8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668a0  garbage? 
+            location: 0x7fff57a66898  garbage? 
+            location: 0x7fff57a66890  garbage? 
+            location: 0x7fff57a66888  garbage? 
+            location: 0x7fff57a66880  garbage? 
+            location: 0x7fff57a66878  garbage? 
+            location: 0x7fff57a66870  garbage? 
+          n location: 0x7fff57a66868  VALUE:   5
+            location: 0x7fff57a66860  VALUE:   0
+            location: 0x7fff57a66858  VALUE:   0
+            location: 0x7fff57a66850  garbage? 
+            location: 0x7fff57a66848  VALUE:   0
+            location: 0x7fff57a66840  VALUE:   0
+-----------------------------------------
+
+
+
+-----------------------------------------
+            location: 0x7fff57a66c18  VALUE:   0
+            location: 0x7fff57a66c10  garbage? 
+            location: 0x7fff57a66c08  garbage? 
+            location: 0x7fff57a66c00  POINTER: 0x7fff57a66c18
+            location: 0x7fff57a66bf8  garbage? 
+      a[10] location: 0x7fff57a66bf0  POINTER: 0x7fff57a66c18
+            location: 0x7fff57a66be8  VALUE:   9
+            location: 0x7fff57a66be0  VALUE:   8
+            location: 0x7fff57a66bd8  VALUE:   7
+            location: 0x7fff57a66bd0  VALUE:   6
+            location: 0x7fff57a66bc8  VALUE:   5
+            location: 0x7fff57a66bc0  VALUE:   4
+            location: 0x7fff57a66bb8  VALUE:   3
+            location: 0x7fff57a66bb0  VALUE:   2
+            location: 0x7fff57a66ba8  VALUE:   1
+a[0], b[10] location: 0x7fff57a66ba0  VALUE:   0
+            location: 0x7fff57a66b98  POINTER: 0x7fff57a66c10
+            location: 0x7fff57a66b90  POINTER: 0x7fff57a66c10
+            location: 0x7fff57a66b88  garbage? 
+            location: 0x7fff57a66b80  POINTER: 0x7fff57a66bf0
+            location: 0x7fff57a66b78  garbage? 
+            location: 0x7fff57a66b70  VALUE:   16
+            location: 0x7fff57a66b68  VALUE:   9
+            location: 0x7fff57a66b60  VALUE:   4
+            location: 0x7fff57a66b58  VALUE:   1
+       b[0] location: 0x7fff57a66b50  VALUE:   0
+            location: 0x7fff57a66b48  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b40  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b38  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b30  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b28  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b20  garbage? 
+            location: 0x7fff57a66b18  POINTER: 0x7fff57a66768
+            location: 0x7fff57a66b10  garbage? 
+            location: 0x7fff57a66b08  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66b00  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66af8  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66af0  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66ae8  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66ae0  garbage? 
+            location: 0x7fff57a66ad8  POINTER: 0x7fff57a66780
+            location: 0x7fff57a66ad0  garbage? 
+            location: 0x7fff57a66ac8  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66ac0  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66ab8  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66ab0  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66aa8  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66aa0  garbage? 
+            location: 0x7fff57a66a98  POINTER: 0x7fff57a66798
+            location: 0x7fff57a66a90  garbage? 
+            location: 0x7fff57a66a88  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a80  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a78  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a70  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a68  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a60  garbage? 
+            location: 0x7fff57a66a58  POINTER: 0x7fff57a667b0
+            location: 0x7fff57a66a50  garbage? 
+            location: 0x7fff57a66a48  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a40  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a38  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a30  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a28  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a20  garbage? 
+            location: 0x7fff57a66a18  POINTER: 0x7fff57a667c8
+            location: 0x7fff57a66a10  garbage? 
+            location: 0x7fff57a66a08  garbage? 
+            location: 0x7fff57a66a00  garbage? 
+            location: 0x7fff57a669f8  garbage? 
+            location: 0x7fff57a669f0  garbage? 
+            location: 0x7fff57a669e8  garbage? 
+            location: 0x7fff57a669e0  garbage? 
+            location: 0x7fff57a669d8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669d0  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669c8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669c0  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669b8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669b0  garbage? 
+            location: 0x7fff57a669a8  POINTER: 0x7fff57a667e0
+            location: 0x7fff57a669a0  garbage? 
+            location: 0x7fff57a66998  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66990  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66988  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66980  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66978  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66970  garbage? 
+            location: 0x7fff57a66968  POINTER: 0x7fff57a667f8
+            location: 0x7fff57a66960  garbage? 
+            location: 0x7fff57a66958  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66950  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66948  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66940  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66938  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66930  garbage? 
+            location: 0x7fff57a66928  POINTER: 0x7fff57a66810
+            location: 0x7fff57a66920  garbage? 
+            location: 0x7fff57a66918  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66910  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66908  POINTER: 0x7fff57a66828
+            location: 0x7fff57a66900  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668f8  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668f0  garbage? 
+            location: 0x7fff57a668e8  POINTER: 0x7fff57a66828
+            location: 0x7fff57a668e0  garbage? 
+            location: 0x7fff57a668d8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668d0  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668c8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668c0  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668b8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668b0  garbage? 
+            location: 0x7fff57a668a8  POINTER: 0x7fff57a66850
+            location: 0x7fff57a668a0  garbage? 
+            location: 0x7fff57a66898  garbage? 
+            location: 0x7fff57a66890  garbage? 
+            location: 0x7fff57a66888  garbage? 
+            location: 0x7fff57a66880  garbage? 
+            location: 0x7fff57a66878  garbage? 
+            location: 0x7fff57a66870  garbage? 
+          n location: 0x7fff57a66868  VALUE:   5
+            location: 0x7fff57a66860  VALUE:   0
+            location: 0x7fff57a66858  VALUE:   0
+            location: 0x7fff57a66850  garbage? 
+            location: 0x7fff57a66848  VALUE:   0
+            location: 0x7fff57a66840  VALUE:   0
+-----------------------------------------
+Yu:3 apple$ 

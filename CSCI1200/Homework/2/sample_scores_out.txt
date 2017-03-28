@@ -1,0 +1,17 @@
+MATCH STATISTICS
+Player              W    L   percentage
+Marcos Baghdatis    3    0        1.000
+David Nalbandian    1    1        0.500
+Ivan Ljubicic       0    1        0.000
+Radek Stepanek      0    1        0.000
+Danai Udomchoke     0    1        0.000
+
+GAME STATISTICS
+Player              W    L   percentage
+David Nalbandian   49   44        0.527
+Radek Stepanek     24   22        0.522
+Marcos Baghdatis   73   69        0.514
+Ivan Ljubicic      21   25        0.457
+Danai Udomchoke    18   25        0.419
+
+HERE'S WHERE YOUR NEW STATISTIC WILL GO... 

@@ -1,0 +1,5 @@
+A bright young coder named Lee
+Wished to loop while i was 3
+But when writing the =
+He forgot its sequel
+And thus looped infinitely
