@@ -24,7 +24,6 @@ router.get('/', function(req, res, next) {
             title: 'Main',
             demos: subjects
         });
-
     });
 });
 
@@ -122,18 +121,18 @@ router.get('/update.html', function(req, res, next) {
 
 });
 
-// New Route 
+// New Route
 
 router.get('/add_course', function(req, res, next) {
     console.log("TEST PAGE GET LOADED");
-    res.send("WELCOME");
+    res.send("WELCOME TO TEST PAGE");
 });
 
 router.post('/add_course', (req, res) => {
     console.log('======ADDING NEW COUSE========');
-    // let {Major, Name, Instuctor, Difficulty, 
+    // let {Major, Name, Instuctor, Difficulty,
         //  Boringness, Time_Commitment, Review} = req.body;
-    let {Major} = req.body;
+    let {Major, Name} = req.body;
     // console.log(Major);
     // console.log('======successfully get the data from the req========');
     let newFeedback = new Feedback();
@@ -157,7 +156,7 @@ router.post('/add_course', (req, res) => {
             res.send ("success ... ");
         }
     });
-    
+
 
 });
 
