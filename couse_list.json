@@ -1,0 +1,166 @@
+{
+  "courses": [
+    {
+      "department_id": 13,
+      "description": "Programming concepts: functions, parameter passing, pointers, arrays, strings, structs, classes, templates. Mathematical tools: sets, functions, and relations, order notation, complexity of algorithms, proof by induction. Data structures and their representations: data abstraction and internal representation, sequences, trees, binary search trees, associative structures. Algorithms: searching and sorting, generic algorithms, iterative and recursive algorithms. Methods of testing correctness and measuring performance.Prerequisites/Corequisites: Prerequisite: CSCI 1100 or permission of instructor.When Offered: Fall and spring terms annually.Credit Hours: 4Contact, Lecture or Lab Hours: 6",
+      "id": 331,
+      "max_credits": 4,
+      "min_credits": 4,
+      "name": "Data Structures",
+      "number": 1200
+    },
+    {
+      "department_id": 13,
+      "description": "Introduction to the theory, algorithms, and applications of machine learning (supervised, reinforcement, and unsupervised) from data: What is learning? Is learning feasible? How can we do it? How can we do it well? The course offers a mix of theory, technique, and application with additional selected topics chosen from Pattern Recognition, Decision Trees, Neural Networks, RBF’s, Bayesian Learning, PAC Learning, Support Vector Machines, Gaussian processes, and Hidden Markov Models. Students cannot receive credit for both CSCI 4100 and CSCI 6100.Prerequisites/Corequisites: Prerequisites: CSCI 2300; an advanced 4000-level algorithms-based CSCI or MATH course; familiarity with probability, linear algebra, and calculus.When Offered: Fall term annually.Cross Listed: CSCI 6100.Credit Hours: 4",
+      "id": 337,
+      "max_credits": 4,
+      "min_credits": 4,
+      "name": "Machine Learning from Data",
+      "number": 4100
+    },
+    {
+      "department_id": 13,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.Prerequisites/Corequisites: Data Structures (CSCI 1200), Database Systems (CSCI 4380) preferred.When Offered: Fall term annually.Cross Listed: Cross listed as ITWS 4350/6350, CSCI 6350 and ERTH 4350/6350. Students can obtain credits for only one of these courses.Credit Hours: 3",
+      "id": 341,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 4350
+    },
+    {
+      "department_id": 13,
+      "description": "Introduction to the theory, algorithms, and applications of machine learning (supervised, reinforcement, and unsupervised) from data: What is learning? Is learning feasible? How can we do it? How can we do it well? The course offers a mix of theory, technique, and application with additional selected topics chosen from Pattern Recognition, Decision Trees, Neural Networks, RBF’s, Bayesian Learning, PAC Learning, Support Vector Machines, Gaussian processes, and Hidden Markov Models. Students cannot receive credit for both CSCI 4100 and CSCI 6100.Prerequisites/Corequisites: Prerequisites: CSCI 2300; an advanced 4000-level algorithms-based CSCI or MATH course; familiarity with probability, linear algebra, and calculus.When Offered: Fall term annually.Cross Listed: CSCI 4100.Credit Hours: 4",
+      "id": 366,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Machine Learning from Data",
+      "number": 6100
+    },
+    {
+      "department_id": 13,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.Prerequisites/Corequisites: Data Structures (CSCI 1200), Database Systems (CSCI 4380) preferred.When Offered: Fall term annually.Cross Listed: Cross listed as ITWS 4350/6350, CSCI 4350 and ERTH 4350/6350. Students can obtain credits for only one of these courses.Credit Hours: 3",
+      "id": 372,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 6350
+    },
+    {
+      "department_id": 15,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught. This course meets with ERTH/CSCI/ITWS 4350 and CSCI/ITWS 6350. A student can get credit for only one of these courses.\n\n Prerequisites/Corequisites: CSCI 1200 and CSCI 4380.When Offered: Fall term annually.Cross Listed: CSCI 4350 and ITWS 4350.Credit Hours: 3",
+      "id": 508,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 4350
+    },
+    {
+      "department_id": 15,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity, and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught. This course meets with ERTH/CSCI/ITWS 4350 and ERTH/CSCI/ITWS 6350. A student can get credit for only one of these courses.\n Prerequisites/Corequisites: CSCI 1200 and CSCI 4380.When Offered: Fall term annually.Cross Listed: CSCI 6350 and ITWS 6350.Credit Hours: 3",
+      "id": 513,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 6350
+    },
+    {
+      "department_id": 63,
+      "description": "",
+      "id": 561,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analytics Research Lab",
+      "number": 4961
+    },
+    {
+      "department_id": 63,
+      "description": "",
+      "id": 570,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analytics Research Lab",
+      "number": 6961
+    },
+    {
+      "department_id": 64,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.\n\n Prerequisites/Corequisites: Data Structures (CSCI 1200), Database Systems (CSCI 4380) preferred.When Offered: Fall term annually.Cross Listed: Cross listed as ITWS 6350, CSCI 4350/6350 and ERTH 4350/6350. Students can obtain credits for only one of these courses.Credit Hours: 3",
+      "id": 580,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 4350
+    },
+    {
+      "department_id": 64,
+      "description": "",
+      "id": 583,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analysis Research Lab",
+      "number": 4961
+    },
+    {
+      "department_id": 64,
+      "description": "Data science is advancing the inductive conduct of science and is driven by the greater volumes, complexity and heterogeneity of data being made available over the Internet. It combines aspects of data management, library science, computer science, and physical science. It is changing the way all of these disciplines do both their individual and collaborative work. Key methodologies in application areas based on real research experience are taught.\n\n Prerequisites/Corequisites: Data Structures (CSCI 1200), Database Systems (CSCI 4380) preferred.When Offered: Fall semester annually.Cross Listed: Cross listed as ITWS 4350, CSCI 4350/6350 and ERTH 4350/6350. Students can obtain credits for only one of these courses.Credit Hours: 3",
+      "id": 587,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Science",
+      "number": 6350
+    },
+    {
+      "department_id": 64,
+      "description": "",
+      "id": 591,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analysis Research Lab",
+      "number": 6961
+    },
+    {
+      "department_id": 64,
+      "description": "Learn about: what data policies really are, and how buzz words muddy the waters; the ‘hot topics’ in data policy right now (hint – they include privacy, security, and sharing); how to critically analyze and evaluate the effectiveness of data policies; what other countries are thinking about with respect to data policies; who makes these policies anyway, and why; what technologies have to do with all of this; what roles politics, culture, economics, and other seemingly unrelated disciplines have to do with data policies; and how specific implementation of some data policies may help address current societal issues. Who should enroll: Students who are interested in how data policies are made and evaluated; anyone who will be working in the data analytics, informatics, or other data-related field; anyone who likes to critique an argument, or who wants to learn how; anyone who has wondered what happens to all of that collected data; anyone who wants to understand the broader connections inherent in policy formulation. You will work in teams to analyze and evaluate specific aspects of current data policies, and present your analysis to the class.",
+      "id": 592,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Big Data Policies",
+      "number": 6962
+    },
+    {
+      "department_id": 2,
+      "description": "",
+      "id": 697,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analysis Research Lab",
+      "number": 4961
+    },
+    {
+      "department_id": 2,
+      "description": "",
+      "id": 705,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Data Analytics Research Lab",
+      "number": 6961
+    },
+    {
+      "department_id": 21,
+      "description": "This course introduces both technical and managerial aspects of a wide range of data-driven technologies used by modern organizations to solve business problems. This course provides the fundamental technical data management skills expected of any MIS professional as well as improved knowledge and understanding of the managerial issues that arise in applying different data management technologies to business problems.Prerequisites/Corequisites: Prerequisite: MGMT 4140 or permission from instructor.When Offered: Spring term annually.Credit Hours: 4",
+      "id": 728,
+      "max_credits": 4,
+      "min_credits": 4,
+      "name": "Data Resource Management",
+      "number": 4170
+    },
+    {
+      "department_id": 21,
+      "description": "The primary objective of this course is to introduce the multifaceted role of data as a resource of the organization, in three ways. First, it examines the role of data at the operational, tactical, and strategic levels of the organization. Second, it provides students with knowledge and hands on training of technologies that manipulate data, including  structured query language (SQL), extraction transformation and loading tools (ETL), data warehousing (DW), online analytical processing (OLAP), and data mining (DM). The course exposes students to big data management techniques. Finally, the course provides students the theory and hands on training to understand the transformation of data to information.\n When Offered: Fall term annually.Credit Hours: 3",
+      "id": 762,
+      "max_credits": 3,
+      "min_credits": 3,
+      "name": "Advanced Data Resource Management",
+      "number": 6570
+    }
+  ]
+}
