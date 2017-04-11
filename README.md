@@ -29,4 +29,9 @@ nodemon
 ```
 
 Collabrator:
+
 Yuze Ma
+
+Ian Rios
+
+Ziniu Yu
