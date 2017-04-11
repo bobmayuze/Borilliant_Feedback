@@ -160,5 +160,12 @@ router.post('/add_course', (req, res) => {
 
 });
 
+router.get('/read_feedback_all', (req, res, next) => {
+    Feedback.find( (err, doc) => {
+        console.log(doc);
+        res.send(doc);
+    });
+});
+
 
 module.exports = router;
