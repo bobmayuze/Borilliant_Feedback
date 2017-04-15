@@ -88,7 +88,6 @@ router.post('/add.html', function(req, res, next) {
         console.log(doc);
         res.redirect('/');
     });
-
 });
 
 router.get('/del.html', function(req, res, next) {
@@ -102,7 +101,6 @@ router.get('/del.html', function(req, res, next) {
             res.redirect('/');
         });
     }
-
 });
 
 router.get('/update.html', function(req, res, next) {
@@ -116,9 +114,7 @@ router.get('/update.html', function(req, res, next) {
                 demos: docs
             });
         });
-
     }
-
 });
 
 router.get('/update_by_ID.html', function(req, res, next) {
@@ -133,9 +129,7 @@ router.get('/update_by_ID.html', function(req, res, next) {
             demos: docs
         });
       });
-
     }
-
 });
 
 // New Route
