@@ -121,6 +121,23 @@ router.get('/update.html', function(req, res, next) {
 
 });
 
+router.get('/update_by_ID.html', function(req, res, next) {
+
+    var id = req.query.id;
+
+    if (id && id != '') {
+      console.log('=====================update id = ' + id);
+      Demo.findByIdAndUpdate({'id' : id}, function(err, docs){
+        res.render('update', {
+            title: 'ID',
+            demos: docs
+        });
+      });
+
+    }
+
+});
+
 // New Route
 
 router.get('/add_course', function(req, res, next) {
