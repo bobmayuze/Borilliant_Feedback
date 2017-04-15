@@ -1,1 +1,0 @@
-json.partial! '/api/v5/departments/departments', departments: @query
