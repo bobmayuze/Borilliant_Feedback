@@ -161,11 +161,16 @@ router.post('/add_course', (req, res) => {
 });
 
 router.get('/read_feedback_all', (req, res, next) => {
-    Feedback.find( (err, doc) => {
-        console.log(doc);
-        res.send(doc);
+    Feedback.find( (err, all_feedbacks) => {
+        if(err) res.send(err);
+        else{
+            console.log(all_feedbacks);
+            res.send(all_feedbacks);
+        }
     });
 });
+
+
 
 
 module.exports = router;
