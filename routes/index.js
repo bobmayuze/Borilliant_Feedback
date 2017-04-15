@@ -7,7 +7,7 @@ var model = require('../models/model');
 var Demo = model.Demo;
 var Feedback = model.Feedback;
 
-mongoose.connect('mongodb://localhost/express_demo');
+mongoose.connect('mongodb://localhost/borilliant_feedback');
 
 // router.get('/', function(req, res, next) {
 //     Demo.find(function(err, docs) {
@@ -128,6 +128,7 @@ router.get('/create_feedback', (req, res, next) => {
     res.send("WELCOME TO TEST PAGE");
 });
 
+//////// CREATE
 router.post('/create_feedback', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty,
@@ -137,6 +138,7 @@ router.post('/create_feedback', (req, res) => {
     // console.log('======successfully get the data from the req========');
     let newFeedback = new Feedback();
     newFeedback._Major = Major;
+    newFeedback._Name = Name;
     // var newFeedback = new Feedback({
     //     // _Major: Major
     //     _Major: req.body.Major
@@ -160,13 +162,8 @@ router.post('/create_feedback', (req, res) => {
 
 });
 
-router.get('/read_feedback_all', (req, res, next) => {
-    Feedback.find( (err, doc) => {
-        console.log(doc);
-        res.send(doc);
-    });
-});
 
+//////// READ
 router.get('/read_feedback_all', (req, res, next) => {
     Feedback.find( (err, all_feedbacks) => {
         if(err) res.send(err);
@@ -177,8 +174,30 @@ router.get('/read_feedback_all', (req, res, next) => {
     });
 });
 
+router.get('/get_major_list',(req, res, next) =>{
+    Feedback.find().distinct('_Major', (err, major_list)=>{
+        if(err) res.send(err);
+        else{
+            console.log(major_list);
+            res.send(major_list);
+        }
+    });
+});
 
 
+//////// UPDAE
+
+
+//////// DELETE
+router.post('/delete_a_feedback', (req, res)=>{
+    let {id} = req.body;
+    Feedback.findByIdAndRemove(id, (err, object)=>{
+        if(err) res.sned(err);
+        else{
+            res.send(object);
+        }
+    });
+});
 
 
 module.exports = router;
