@@ -186,15 +186,40 @@ router.get('/get_major_list',(req, res, next) =>{
 
 
 //////// UPDAE
+// find the target feed back first with GET 
+router.get('/update_a_feedback', (req, res, next)=>{
+    let {id} = req.body;
+    Feedback.findById(id, (err, target_feedback)=>{
+        if(err) res.send(err);
+        else{
+            res.send(target_feedback);
+        }
+    });
+});
+
+// use POST req to update it 
+router.post('/update_a_feedback', (req, res, next)=>{
+    let {id, Major, Name} = req.body;
+    Feedback.findById(id, (err, target_feedback)=>{
+        if(err) res.send(err);
+        else{
+            target_feedback._Major = Major;
+            target_feedback._Name = Name;
+            res.send(target_feedback);
+        }
+    });
+
+});
+
 
 
 //////// DELETE
 router.post('/delete_a_feedback', (req, res)=>{
     let {id} = req.body;
-    Feedback.findByIdAndRemove(id, (err, object)=>{
+    Feedback.findByIdAndRemove(id, (err, target_feedback)=>{
         if(err) res.sned(err);
         else{
-            res.send(object);
+            res.send(target_feedback);
         }
     });
 });
