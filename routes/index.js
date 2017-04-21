@@ -134,12 +134,12 @@ router.get('/update_by_ID.html', function(req, res, next) {
 
 // New Route
 
-router.get('/add_course', function(req, res, next) {
+router.get('/create_feedback', (req, res, next) => {
     console.log("TEST PAGE GET LOADED");
     res.send("WELCOME TO TEST PAGE");
 });
 
-router.post('/add_course', (req, res) => {
+router.post('/create_feedback', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty,
         //  Boringness, Time_Commitment, Review} = req.body;
@@ -177,6 +177,29 @@ router.get('/read_feedback_all', (req, res, next) => {
         res.send(doc);
     });
 });
+
+router.get('/read_feedback_all', (req, res, next) => {
+    Feedback.find( (err, all_feedbacks) => {
+        if(err) res.send(err);
+        else{
+            console.log(all_feedbacks);
+            res.send(all_feedbacks);
+        }
+    });
+});
+
+router.get('/read_feedback_specific', (req, res, next) => {
+    Feedback.find( (err, specific_feedback) => {
+        if(err) res.send(err);
+        else{
+            console.log(specific_feedback);
+            res.send(specific_feedback);
+        }
+    });
+});
+
+
+
 
 
 module.exports = router;

@@ -28,5 +28,12 @@ Step 3:
 nodemon
 ```
 
-Collabrator:
+Collaborators:
+
 Yuze Ma
+
+Ian Rios
+
+Ziniu Yu
+
+Meher Dusi
