@@ -133,23 +133,18 @@ router.post('/create_feedback', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty,
         //  Boringness, Time_Commitment, Review} = req.body;
-    let {Major, Name} = req.body;
+    let {Major, Name, Instuctor, Difficulty, Review } = req.body;
     // console.log(Major);
     // console.log('======successfully get the data from the req========');
     let newFeedback = new Feedback();
     newFeedback._Major = Major;
     newFeedback._Name = Name;
-    // var newFeedback = new Feedback({
-    //     // _Major: Major
-    //     _Major: req.body.Major
-    // });
-    console.log('======successfully created the original object========');
-    // newFeedback.Major = Major;
-
-    // console.log('======successfully created the object========');
-    // newFeedback.Name = Name;
-    // newFeedback.Instuctor = Instuctor;
+    // newFeedback._Instuctor = Instuctor;
     // newFeedback.Difficulty = Difficulty;
+    // newFeedback._Review = Review;
+
+    console.log('======successfully created the original object========');
+
 
     newFeedback.save((err) => {
         if(err) console.log(err);
@@ -224,5 +219,8 @@ router.post('/delete_a_feedback', (req, res)=>{
     });
 });
 
-
+// test for angular
+router.get('/ng', (req, res, next) => {
+  res.render('test.html', { title: 'TEST PAGE' });
+});
 module.exports = router;

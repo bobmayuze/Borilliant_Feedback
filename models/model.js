@@ -22,9 +22,19 @@ var FeedbackSchema = new Schema({
         type : String,
         default : "0000"
     },
-    // _Major : String,
-    // _Name : String,
-    // Instuctor: String,
+    _Instuctor:{
+        type : String,
+        default : "Professor X"
+    },
+    _Difficulty:{
+        type : Number,
+        default : 9999
+    },
+    _Review:{
+        type : String,
+        default : "Why not change the world?"
+    },
+    
     // Difficulty: Number,
     // Boringness: Number,
     // Time_Commitment: Number,
