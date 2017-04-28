@@ -7,7 +7,7 @@ var model = require('../models/model');
 var Demo = model.Demo;
 var Feedback = model.Feedback;
 
-mongoose.connect('mongodb://localhost/express_demo');
+mongoose.connect('mongodb://localhost/borilliant_feedback');
 
 // router.get('/', function(req, res, next) {
 //     Demo.find(function(err, docs) {
@@ -128,26 +128,23 @@ router.get('/create_feedback', (req, res, next) => {
     res.send("WELCOME TO TEST PAGE");
 });
 
+//////// CREATE
 router.post('/create_feedback', (req, res) => {
     console.log('======ADDING NEW COUSE========');
     // let {Major, Name, Instuctor, Difficulty,
         //  Boringness, Time_Commitment, Review} = req.body;
-    let {Major, Name} = req.body;
+    let {Major, Name, Instuctor, Difficulty, Review } = req.body;
     // console.log(Major);
     // console.log('======successfully get the data from the req========');
     let newFeedback = new Feedback();
     newFeedback._Major = Major;
-    // var newFeedback = new Feedback({
-    //     // _Major: Major
-    //     _Major: req.body.Major
-    // });
-    console.log('======successfully created the original object========');
-    // newFeedback.Major = Major;
-
-    // console.log('======successfully created the object========');
-    // newFeedback.Name = Name;
-    // newFeedback.Instuctor = Instuctor;
+    newFeedback._Name = Name;
+    // newFeedback._Instuctor = Instuctor;
     // newFeedback.Difficulty = Difficulty;
+    // newFeedback._Review = Review;
+
+    console.log('======successfully created the original object========');
+
 
     newFeedback.save((err) => {
         if(err) console.log(err);
@@ -160,13 +157,8 @@ router.post('/create_feedback', (req, res) => {
 
 });
 
-router.get('/read_feedback_all', (req, res, next) => {
-    Feedback.find( (err, doc) => {
-        console.log(doc);
-        res.send(doc);
-    });
-});
 
+//////// READ
 router.get('/read_feedback_all', (req, res, next) => {
     Feedback.find( (err, all_feedbacks) => {
         if(err) res.send(err);
@@ -177,8 +169,58 @@ router.get('/read_feedback_all', (req, res, next) => {
     });
 });
 
+router.get('/get_major_list',(req, res, next) =>{
+    Feedback.find().distinct('_Major', (err, major_list)=>{
+        if(err) res.send(err);
+        else{
+            console.log(major_list);
+            res.send(major_list);
+        }
+    });
+});
+
+
+//////// UPDAE
+// find the target feed back first with GET 
+router.get('/update_a_feedback', (req, res, next)=>{
+    let {id} = req.body;
+    Feedback.findById(id, (err, target_feedback)=>{
+        if(err) res.send(err);
+        else{
+            res.send(target_feedback);
+        }
+    });
+});
+
+// use POST req to update it 
+router.post('/update_a_feedback', (req, res, next)=>{
+    let {id, Major, Name} = req.body;
+    Feedback.findById(id, (err, target_feedback)=>{
+        if(err) res.send(err);
+        else{
+            target_feedback._Major = Major;
+            target_feedback._Name = Name;
+            res.send(target_feedback);
+        }
+    });
+
+});
 
 
 
+//////// DELETE
+router.post('/delete_a_feedback', (req, res)=>{
+    let {id} = req.body;
+    Feedback.findByIdAndRemove(id, (err, target_feedback)=>{
+        if(err) res.sned(err);
+        else{
+            res.send(target_feedback);
+        }
+    });
+});
 
+// test for angular
+router.get('/ng', (req, res, next) => {
+  res.render('test.html', { title: 'TEST PAGE' });
+});
 module.exports = router;
