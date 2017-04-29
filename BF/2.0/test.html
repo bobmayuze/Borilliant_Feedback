@@ -164,11 +164,11 @@ function update(id){
                 <tr><td>\
                   <a href="newFB.html"><button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px; margin-left:10px;">Add a Feedback</button></a>\
                   \
-                  <button class="modal-trigger light-blue btn waves-effect waves-light right" style="margin-top: 5px;" data-target="'+'description-'+filtered[c]["department_id"]+filtered[c]["number"]+'">Course Description</button>\
+                  <a class="light-blue btn waves-effect waves-light right" style="margin-top: 5px;" href="#'+'description-'+filtered[c]["department_id"]+filtered[c]["number"]+'">Course Description</a>\
                   \
                   <div id="'+'description-'+filtered[c]["department_id"]+filtered[c]["number"]+'" class="modal bottom-sheet">\
                   \
-                    <div class="modal-content">\
+                    <div id="'+'modal-description-'+filtered[c]["department_id"]+filtered[c]["number"]+'" class="modal-content">\
                       <h4>'+filtered[c]["department_id"]+' '+filtered[c]["number"]+" - "+filtered[c]["name"]+'</h4>\
                       <p>'+filtered[c]["description"]+'</p>\
                       <p>Credit Hours: '+filtered["max_credits"]+'</p>\
@@ -195,9 +195,9 @@ window.onload = function(){
       }
     }
   });
-  $.getJSON("course_list_origin.json", function(data){
+  $.getJSON("course_list_origin.json", function(ret){
 
-   json = data["courses"];
+   json = ret["courses"];
    console.log(json);
 
 
@@ -206,54 +206,3 @@ window.onload = function(){
 
 </script>
 </html>
-
-
-
-<!-- <li>
-        <div class="collapsible-header active"><i class="material-icons">done</i>
-          <font size="5"color=#5390BE>CSCI 1010 - Introduction to Computer Programming</font>
-        </div>
-
-        <div class="collapsible-body"><span>
-          <div style="margin: 0% 10% 0% 10%">
-            <table style="table-layout: fixed; width:100%;">
-
-              <thead>
-                <tr>
-                  <td style="word-wrap: break-word">Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1Feedback1</td>
-                </tr>
-                <tr>
-                  <td style="word-wrap: break-word">Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2Feedback2</td>
-                </tr>
-                <tr>
-                  <td style="word-wrap: break-word">Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3Feedback3</td>
-                </tr>
-              </thead>
-
-              <tbody>
-                <tr><td>
-                  <a href="newFB.html"><button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px; margin-left:10px;">Add a Feedback</button></a>
-
-                  <a class="light-blue btn waves-effect waves-light right" style="margin-top: 5px;" href="#CSCI1010_description">Course Description</a>
-
-                  <div id="CSCI1010_description" class="modal bottom-sheet">
-                    <div class="modal-content">
-                      <h4>CSCI 1010 - Introduction to Computer Programming</h4>
-                      <p>Computer programming is a way of thinking. A successful programmer needs to take a word problem, generate a pseudocode algorithm, and convert it to the syntax of a specific programming language. This course is an alternative to CSCI 1100 and is intended for students who want an introduction to this programming process but do not intend to do further course work in programming or computer science. Emphasis will be on the generation of the algorithms. Rather than using the complex syntax of a production language such as C or C++, this course will use Visual Basic. This allows concentration on the fundamentals and without becoming sidetracked by language complexity. It also affords students a tool for creating useful personal applications or prototypes in the future. Students cannot get credit for this course if they have already taken any other CSCI course.</p>
-                      <p>When Offered: Fall and spring terms annually.</p>
-                      <p>Credit Hours: 4</p>
-                    </div>
-
-                  </div>
-
-                </td></tr>
-              </tbody>
-
-            </table>
-
-          </div>
-        </span></div>
-      </li>
- -->
-
-
