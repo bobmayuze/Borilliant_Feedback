@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BFB</title>
+  <title>Borilliant FeedBack</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--Import Google Icon Font-->
@@ -12,6 +12,9 @@
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 
   <link rel="stylesheet" type="text/css" href="mycss/search.css">
+  <link rel="stylesheet" type="text/css" href="mycss/collection-item.css">
+  <link rel="stylesheet" type="text/css" href="mycss/major-name.css">
+
   <!-- <link rel="stylesheet" type="text/css" href="mycss/collapsible-header.css"> -->
 
 
@@ -37,10 +40,10 @@
              &nbsp;Borilliant FeedBack&nbsp;</font></a></li>
         <!-- <li><a href="badges.html">button1</a></li>
         <li><a href="collapsible.html">button2</a></li> -->
-</ul>
+      </ul>
 
 
-<ul class="right hide-on-med-and-down">
+      <ul class="right hide-on-med-and-down">
         <!-- <li> -->
         <!-- <form>
         <div class="input-field">
@@ -53,11 +56,11 @@
 
 
 
-<div id="wrap">
-  <form action="" autocomplete="on">
-  <input id="search" name="search" type="text" placeholder="What're we looking for ?"><i class="material-icons" style="font-size: 3rem; margin-right: 7px">search</i><input id="search_submit" value="Rechercher" type="submit">
-  </form>
-</div>
+        <div id="wrap">
+          <form action="" autocomplete="on">
+            <input id="search" name="search" type="text" placeholder="What're we looking for ?"><i class="material-icons" style="font-size: 3rem; margin-right: 7px">search</i><input id="search_submit" value="Rechercher" type="submit">
+          </form>
+        </div>
 
 
 
@@ -93,20 +96,37 @@
         <div class="collapsible-body"><span>
 
           <div style="margin: 0% 10% 0% 10%">
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>ARTS</font> Arts<br />
-              <font face="Lucida Console"size="5"color=#5390BE>COGS</font> Cognitive Science<br />
-              <font face="Lucida Console"size="5"color=#5390BE>COMM</font> Communication<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ECON</font> Economics<br />
-              <font face="Lucida Console"size="5"color=#5390BE>IHSS</font> Interdisciplinary H&SS<br />
-              <font face="Lucida Console"size="5"color=#5390BE>LANG</font> Languages<br />
-              <font face="Lucida Console"size="5"color=#5390BE>LITR</font> Literature<br />
-              <font face="Lucida Console"size="5"color=#5390BE>PHIL</font> Philosophy<br />
-              <font face="Lucida Console"size="5"color=#5390BE>PSYC</font> Psychology<br />
-              <font face="Lucida Console"size="5"color=#5390BE>STSH</font> Science and Technology Studies - Humanities<br />
-              <font face="Lucida Console"size="5"color=#5390BE>STSS</font> Science and Technology Studies - Social Sciences<br />
-              <font face="Lucida Console"size="5"color=#5390BE>WRIT</font> Writing
-            </p>
+
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font class="major-name">ARTS</font> Arts<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">COGS</font> Cognitive Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">COMM</font> Communication<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ECON</font> Economics<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">IHSS</font> Interdisciplinary H&SS<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">LANG</font> Languages<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">LITR</font> Literature<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">PHIL</font> Philosophy<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">STSH</font> Science and Technology Studies - Humanities<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">STSS</font> Science and Technology Studies - Social Sciences<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">WRIT</font> Writing </a>
+            </div>
+
+
+            <!-- <p>
+              <font class="major-name">ARTS</font> Arts<br />
+              <font class="major-name">COGS</font> Cognitive Science<br />
+              <font class="major-name">COMM</font> Communication<br />
+              <font class="major-name">ECON</font> Economics<br />
+              <font class="major-name">IHSS</font> Interdisciplinary H&SS<br />
+              <font class="major-name">LANG</font> Languages<br />
+              <font class="major-name">LITR</font> Literature<br />
+              <font class="major-name">PHIL</font> Philosophy<br />
+              <font class="major-name">PSYC</font> Psychology<br />
+              <font class="major-name">STSH</font> Science and Technology Studies - Humanities<br />
+              <font class="major-name">STSS</font> Science and Technology Studies - Social Sciences<br />
+              <font class="major-name">WRIT</font> Writing
+            </p> -->
+
           </div>
 
         </span></div>
@@ -121,19 +141,34 @@
 
           <div style="margin: 0% 10% 0% 10%">
 
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>ASTR</font> Astronomy<br />
-              <font face="Lucida Console"size="5"color=#5390BE>BCBP</font> Biochemistry and Biophysics<br />
-              <font face="Lucida Console"size="5"color=#5390BE>BIOL</font> Biology<br />
-              <font face="Lucida Console"size="5"color=#5390BE>CHEM</font> Chemistry<br />
-              <a href="csci.html" style="text-decoration:none;"><font face="Lucida Console"size="5"color=#5390BE>CSCI</font> Computer Science</a><br />
-              <font face="Lucida Console"size="5"color=#5390BE>ERTH</font> Earth and Environmental Science<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ISCI</font> Interdisciplinary Science<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ITWS</font> Information Technology and Web Science<br />
-              <font face="Lucida Console"size="5"color=#5390BE>MATH</font> Mathematics<br />
-              <font face="Lucida Console"size="5"color=#5390BE>MATP</font> Math Programming, Probability, and Statistics<br />
-              <font face="Lucida Console"size="5"color=#5390BE>PHYS</font> Physics
-            </p>    
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font class="major-name">ASTR</font> Astronomy<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">BCBP</font> Biochemistry and Biophysics<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">BIOL</font> Biology<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">CHEM</font> Chemistry<br /> </a>
+              <a href="csci.html" class="collection-item"> <font class="major-name">CSCI</font> Computer Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ERTH</font> Earth and Environmental Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ISCI</font> Interdisciplinary Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ITWS</font> Information Technology and Web Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">MATH</font> Mathematics<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">MATP</font> Math Programming, Probability, and Statistics<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">PHYS</font> Physics </a>
+            </div>
+            
+            <!-- <p>
+              <font class="major-name">ASTR</font> Astronomy<br />
+              <font class="major-name">BCBP</font> Biochemistry and Biophysics<br />
+              <font class="major-name">BIOL</font> Biology<br />
+              <font class="major-name">CHEM</font> Chemistry<br />
+              <a href="csci.html" style="text-decoration:none;"><font class="major-name">CSCI</font> Computer Science</a><br />
+              <font class="major-name">ERTH</font> Earth and Environmental Science<br />
+              <font class="major-name">ISCI</font> Interdisciplinary Science<br />
+              <font class="major-name">ITWS</font> Information Technology and Web Science<br />
+              <font class="major-name">MATH</font> Mathematics<br />
+              <font class="major-name">MATP</font> Math Programming, Probability, and Statistics<br />
+              <font class="major-name">PHYS</font> Physics
+            </p> -->
+
           </div>
 
         </span></div>
@@ -148,19 +183,34 @@
 
           <div style="margin: 0% 10% 0% 10%">
 
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>BMED</font> Biomedical Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>CHME</font> Chemical Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>CIVL</font> Civil Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ECSE</font> Electrical and Computer Systems Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ENGR</font> Core Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ENVE</font> Environmental and Energy Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>EPOW</font> Electric Power Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ESCI</font> Engineering Science<br />
-              <font face="Lucida Console"size="5"color=#5390BE>ISYE</font> Industrial and Systems Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>MANE</font> Mechanical, Aerospace, and Nuclear Engineering<br />
-              <font face="Lucida Console"size="5"color=#5390BE>MTLE</font> Materials Science and Engineering
-            </p>
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font class="major-name">BMED</font> Biomedical Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">CHME</font> Chemical Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">CIVL</font> Civil Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ECSE</font> Electrical and Computer Systems Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ENGR</font> Core Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ENVE</font> Environmental and Energy Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">EPOW</font> Electric Power Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ESCI</font> Engineering Science<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">ISYE</font> Industrial and Systems Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">MANE</font> Mechanical, Aerospace, and Nuclear Engineering<br /> </a>
+              <a href="#!" class="collection-item"> <font class="major-name">MTLE</font> Materials Science and Engineering </a>                           
+            </div>
+
+            <!-- <p>
+              <font class="major-name">BMED</font> Biomedical Engineering<br />
+              <font class="major-name">CHME</font> Chemical Engineering<br />
+              <font class="major-name">CIVL</font> Civil Engineering<br />
+              <font class="major-name">ECSE</font> Electrical and Computer Systems Engineering<br />
+              <font class="major-name">ENGR</font> Core Engineering<br />
+              <font class="major-name">ENVE</font> Environmental and Energy Engineering<br />
+              <font class="major-name">EPOW</font> Electric Power Engineering<br />
+              <font class="major-name">ESCI</font> Engineering Science<br />
+              <font class="major-name">ISYE</font> Industrial and Systems Engineering<br />
+              <font class="major-name">MANE</font> Mechanical, Aerospace, and Nuclear Engineering<br />
+              <font class="major-name">MTLE</font> Materials Science and Engineering
+            </p> -->
+
           </div>
 
         </span></div>
@@ -178,9 +228,13 @@
 
           <div style="margin: 0% 10% 0% 10%">
 
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>ARCH</font> Architecture
-            </p>
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font class="major-name">ARCH</font> Architecture </a>
+            </div>
+
+            <!-- <p>
+              <font class="major-name">ARCH</font> Architecture
+            </p> -->
 
           </div>
 
@@ -196,9 +250,14 @@
 
           <div style="margin: 0% 10% 0% 10%">
 
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>MGMT</font> Management
-            </p>
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font face="Lucida Console" size="5" color=#5390BE>MGMT</font> Management </a>
+            </div>
+
+            <!-- <p>
+              <font class="major-name">MGMT</font> Management
+            </p> -->
+
           </div>
 
         </span></div>
@@ -213,13 +272,22 @@
 
           <div style="margin: 0% 10% 0% 10%">
 
-            <p>
-              <font face="Lucida Console"size="5"color=#5390BE>ADMN</font> Administrative Courses<br />
-              <font face="Lucida Console"size="5"color=#5390BE>LGHT</font> Lighting<br />
-              <font face="Lucida Console"size="5"color=#5390BE>USAF</font> Aerospace Studies (Air Force ROTC)<br />
-              <font face="Lucida Console"size="5"color=#5390BE>USAR</font> Military Science (Army ROTC)<br />
-              <font face="Lucida Console"size="5"color=#5390BE>USNA</font> Naval Science (Navy ROTC)
-            </p>
+            <div class="collection">
+              <a href="#!" class="collection-item"> <font class="major-name">ADMN</font> Administrative Courses<br /> </a>                            
+              <a href="#!" class="collection-item"> <font class="major-name">LGHT</font> Lighting<br /> </a>                            
+              <a href="#!" class="collection-item"> <font class="major-name">USAF</font> Aerospace Studies (Air Force ROTC)<br /> </a>                            
+              <a href="#!" class="collection-item"> <font class="major-name">USAR</font> Military Science (Army ROTC)<br /> </a>                            
+              <a href="#!" class="collection-item"> <font class="major-name">USNA</font> Naval Science (Navy ROTC) </a>                            
+            </div>
+
+            <!-- <p>
+              <font class="major-name">ADMN</font> Administrative Courses<br />
+              <font class="major-name">LGHT</font> Lighting<br />
+              <font class="major-name">USAF</font> Aerospace Studies (Air Force ROTC)<br />
+              <font class="major-name">USAR</font> Military Science (Army ROTC)<br />
+              <font class="major-name">USNA</font> Naval Science (Navy ROTC)
+            </p> -->
+
           </div>
 
         </span></div>
@@ -246,6 +314,7 @@
       <div class="col l6 s12">
         <h5 class="white-text">Borilliant FeedBack</h5>
         <p class="grey-text text-lighten-4">RPI CSCI 2963 Class Projects</p>
+        <p class="grey-text text-lighten-4">Special Thanks to Prof and Mentors</p>        
       </div>
       <div class="col l2 offset-l4 s12" align="right">
         <h5 class="white-text">Developers</h5>

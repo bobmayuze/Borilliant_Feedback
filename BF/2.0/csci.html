@@ -2,7 +2,7 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>BFB</title>
+  <title>Borilliant FeedBack</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
   <!--Import Google Icon Font-->
@@ -27,21 +27,33 @@
   <!--Import jQuery before materialize.js-->
   <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
   <script type="text/javascript" src="js/materialize.min.js"></script>
+  <!-- <script type="text/javascript" src="myjs/select.js"></script> -->
 
   <header>
     <div class="navbar-fixed">
       <nav>
         <div class="blue nav-wrapper">
-          <ul class="left hide-on-med-and-down">
+          <ul class="left">
             <li class="active"><a href="index.html"><font size="4">
              &nbsp;Borilliant FeedBack&nbsp;</font></a></li>
         <!-- <li><a href="badges.html">button1</a></li>
         <li><a href="collapsible.html">button2</a></li> -->
+
+
+
       </ul>
 
+      <!--   <div class="nav-wrapper">
+      <div class="col s6">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+      </div>
+    </div> -->
 
-      <ul class="right hide-on-med-and-down">
-        <!-- <li> -->
+
+
+    <ul class="right">
+      <!-- <li> -->
         <!-- <form>
         <div class="input-field">
             <input id="search" type="search" required>
@@ -70,7 +82,27 @@
 
     </div>
   </nav>
-</div>
+
+  <!-- <div class="nav-wrapper">
+      <div class="col s6">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+      </div>
+    </div> -->
+
+  </div>
+
+<!-- <nav>
+<div class="nav-wrapper">
+      <div class="col 16 s12">
+        <a href="#!" class="breadcrumb">First</a>
+        <a href="#!" class="breadcrumb">Second</a>
+        <a href="#!" class="breadcrumb">Third</a>
+      </div>
+    </div>
+  </nav> -->
+
+
 </header>
 
 
@@ -111,9 +143,25 @@
 
               <tbody>
                 <tr><td>
-                  <button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px; margin-left:10px">Add a Feedback</button>
+                  <a href="newFB.html"><button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px; margin-left:10px;">Add a Feedback</button></a>
 
-                  <button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px;">Course Description</button>
+                  <!-- <button class="light-blue btn waves-effect waves-light right" type="submit" name="action" style="margin-top: 5px;">Course Description</button> -->
+
+
+                  <!-- Modal Trigger -->
+                  <a class="light-blue btn waves-effect waves-light right" style="margin-top: 5px;" href="#CSCI1010_description">Course Description</a>
+
+                  <!-- Modal Structure -->
+                  <div id="CSCI1010_description" class="modal bottom-sheet">
+                    <div class="modal-content">
+                      <h4>CSCI 1010 - Introduction to Computer Programming</h4>
+                      <p>Computer programming is a way of thinking. A successful programmer needs to take a word problem, generate a pseudocode algorithm, and convert it to the syntax of a specific programming language. This course is an alternative to CSCI 1100 and is intended for students who want an introduction to this programming process but do not intend to do further course work in programming or computer science. Emphasis will be on the generation of the algorithms. Rather than using the complex syntax of a production language such as C or C++, this course will use Visual Basic. This allows concentration on the fundamentals and without becoming sidetracked by language complexity. It also affords students a tool for creating useful personal applications or prototypes in the future. Students cannot get credit for this course if they have already taken any other CSCI course.</p>
+                      <p>When Offered: Fall and spring terms annually.</p>
+                      <p>Credit Hours: 4</p>
+                    </div>
+
+                  </div>
+
                 </td></tr>
               </tbody>
 
@@ -1263,6 +1311,7 @@
       <div class="col l6 s12">
         <h5 class="white-text">Borilliant FeedBack</h5>
         <p class="grey-text text-lighten-4">RPI CSCI 2963 Class Projects</p>
+        <p class="grey-text text-lighten-4">Special Thanks to Prof and Mentors</p>        
       </div>
       <div class="col l2 offset-l4 s12" align="right">
         <h5 class="white-text">Developers</h5>
