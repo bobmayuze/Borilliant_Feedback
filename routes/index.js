@@ -221,6 +221,9 @@ router.post('/delete_a_feedback', (req, res)=>{
 
 // test for angular
 router.get('/ng', (req, res, next) => {
+  res.render('index_angular.html', { title: 'TEST PAGE' });
+});
+router.get('/test', (req, res, next) => {
   res.render('test.html', { title: 'TEST PAGE' });
 });
 module.exports = router;
