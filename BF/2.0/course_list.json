@@ -226,7 +226,7 @@
       "number": 1090
     },
     {
-      "department_id": "MANE",,
+      "department_id": "MANE",
       "description": "A laboratory introduction to simulation and hardware programming with MATLAB and Simulink.  Course covers: fundamental theory and programming tools for common sensors and actuators: gyroscopes, accelerometers, magnetometers, encoders, analog sensors, DC Motors, and motor drivers.  Including: discretization, sampling, integration, differentiation, delays, saturation, and control.  Material covered in a hands-on, observable, and application specific way.  Weekly 1 hour lab/lectures introduce basic topics.  Labs reinforce covered topics and are performed at home with provided hardware kits.When Offered: Spring term annually, fall term upon availability.Cross Listed: Cross listed as ECSE 1090.Credit Hours: 1",
       "id": 610,
       "max_credits": 1,
@@ -271,7 +271,7 @@
       "number": 1100
     },
     {
-      "department_id": "ISYE",,
+      "department_id": "ISYE",
       "description": "An introduction to industrial and systems engineering (ISE). Major elements of the ISE disciplines are overviewed in the context of operations engineering problems. Topics include deterministic and stochastic applications of operations research methods, soft computing, applications of probability and statistics, engineering economics, discrete event simulation, and decision analysis.When Offered: Fall term annually.Credit Hours: 1",
       "id": 543,
       "max_credits": 1,
@@ -280,7 +280,7 @@
       "number": 1100
     },
     {
-      "department_id": "ITWS",,
+      "department_id": "ITWS",
       "description": "This course introduces students to the field of information technology and Web science, the types of problems encountered in the field, and the solution approaches used to solve them. Through a series of activities and projects, students are introduced to topics such as Web systems design, emerging Web standards, database systems, security, and computer networking. Guest speakers highlight information technology practices in industry. Students work in groups on a team project and presentation at the end of the course.\n\n \n\n \n\n When Offered: Fall term annually.Credit Hours: 4",
       "id": 575,
       "max_credits": 4,
@@ -289,7 +289,7 @@
       "number": 1100
     },
     {
-      "department_id": "MANE",,
+      "department_id": "MANE",
       "description": "A survey of concepts applied to nuclear power production and non-power application of nuclear science and technology. Topics include next generation nuclear power plants, nuclear reactor material, waste management, environmental impacts of nuclear power, fusion power, medical applications, radiation protection, and other topics of current interest. Introduction to and tours of experimental facilities including an electron accelerator and a low power nuclear fission reactor. Discussions of educational, research, and career opportunities in Nuclear Engineering.When Offered: Fall and spring terms annually.Credit Hours: 1",
       "id": 611,
       "max_credits": 1,
@@ -1036,7 +1036,7 @@
       "number": 2110
     },
     {
-      "department_id": "ITWS",,
+      "department_id": "ITWS",
       "description": "This course involves a study of the methods used to extract and deliver dynamic information on the World Wide Web. The course uses a hands-on approach in which students actively develop Web-based software systems. Additional topics include installation, configuration, and management of Web servers. Students are required to have access to a PC on which they can install software such as a Web server and various programming environments.Prerequisites/Corequisites: ITWS 1100 and CSCI 1200.When Offered: Fall term annually.Credit Hours: 4",
       "id": 576,
       "max_credits": 4,
@@ -1585,7 +1585,7 @@
       "number": 2540
     },
     {
-      "department_id": "COGS",,
+      "department_id": "COGS",
       "description": "This hands-on class introduces many fundamental concepts in game development. Students will learn to program multiple video games. Topics include render loops, rigid body dynamics, interfaces, event and messaging systems, and co-routines.\n\n Prerequisites/Corequisites: None.When Offered: Fall term annually.Credit Hours: 4",
       "id": 281,
       "max_credits": 4,
